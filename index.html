@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title> GIPHY API </title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/reset.css" rel="stylesheet">-->
+
+</head>
+
+<body> 
+
+  <div class="container">
+    <h1>Favorite Farm Animals</h1>
+
+    <!--buttons created in for loop append here-->
+    <div id="buttons-view"></div>
+
+    <form id="farm-form">
+      <label for="farm-input"> What's YOUR Favorite Farm Animal? </label>
+      <input type="text" id="farm-input"><br>
+
+     <!--button adds more animals-->
+      <input id="add-animal" type="submit" value="Add you own Farm Animals!">
+    </form>
+
+		<div id="animal-gifs"></div>
+		
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascript/giphyapi.js" type="text/javascript"></script>
+
+
+</body>
+</html>
